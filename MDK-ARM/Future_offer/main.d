@@ -60,5 +60,10 @@ future_offer\main.o: ../Core/Inc/gpio.h
 future_offer\main.o: ../User/APP/INS_task.h
 future_offer\main.o: ../User/APP/chassisL_task.h
 future_offer\main.o: ../User/APP/chassisR_task.h
+future_offer\main.o: ../User/Devices/DM_Motor/DM8009_drv.h
+future_offer\main.o: ../User/BSP/CAN/bsp_can.h
+future_offer\main.o: ../User/Devices/CyberGear_Motor/CyberGear_drv.h
+future_offer\main.o: ../User/Algorithm/VMC/VMC_calc.h
+future_offer\main.o: ../User/Algorithm/PID/pid.h
 future_offer\main.o: ../User/APP/DT7_task.h
-future_offer\main.o: ../User/BSP/BSP_DWT.h
+future_offer\main.o: ../User/BSP/DWT/BSP_DWT.h

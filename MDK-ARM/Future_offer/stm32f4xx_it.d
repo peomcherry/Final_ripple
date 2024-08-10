@@ -38,3 +38,4 @@ future_offer\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_t
 future_offer\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 future_offer\stm32f4xx_it.o: ../Core/Inc/usart.h
 future_offer\stm32f4xx_it.o: ../Core/Inc/stm32f4xx_it.h
+future_offer\stm32f4xx_it.o: ../User/BSP/SBUS/bsp_sbus.h

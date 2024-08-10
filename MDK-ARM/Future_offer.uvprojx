@@ -327,7 +327,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
+            <uGnu>1</uGnu>
             <useXO>0</useXO>
             <v6Lang>5</v6Lang>
             <v6LangP>3</v6LangP>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx,USE_HAL_DRIVER,STM32F407xx,ARM_MATH_CM4,__FPU_USED=1U,__FPU_PRESENT=1U,__CC_ARM,ARM_MATH_MATRIX_CHECK,ARM_MATH_ROUNDING</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../User/APP;../User/BSP;../User/Devices/BMI088;../User/Devices/ist8310;../User/BSP/IIC;../User/Algorithm/PID;../User/BSP/SPI;../User/Algorithm/MahonyAHRS</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../User/APP;../User/BSP;../User/Devices/BMI088;../User/Devices/ist8310;../User/BSP/IIC;../User/Algorithm/PID;../User/BSP/SPI;../User/Algorithm/MahonyAHRS;../User/BSP/DWT;../User/BSP/CAN;../User/Devices/CyberGear_Motor;../User/Devices/DM_Motor;../User/Algorithm/VMC;../User/BSP/SBUS</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1216,11 +1216,6 @@
           <GroupName>BSP</GroupName>
           <Files>
             <File>
-              <FileName>BSP_DWT.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\User\BSP\BSP_DWT.c</FilePath>
-            </File>
-            <File>
               <FileName>bsp_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\BSP\IIC\bsp_i2c.c</FilePath>
@@ -1229,6 +1224,21 @@
               <FileName>bsp_spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\BSP\SPI\bsp_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>BSP_DWT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\BSP\DWT\BSP_DWT.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_can.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\BSP\CAN\bsp_can.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sbus.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\BSP\SBUS\bsp_sbus.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1244,6 +1254,11 @@
               <FileName>MahonyAHRS.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\Algorithm\MahonyAHRS\MahonyAHRS.c</FilePath>
+            </File>
+            <File>
+              <FileName>VMC_calc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Algorithm\VMC\VMC_calc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1269,6 +1284,16 @@
               <FileName>ist8310driver_middleware.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\Devices\ist8310\ist8310driver_middleware.c</FilePath>
+            </File>
+            <File>
+              <FileName>CyberGear_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Devices\CyberGear_Motor\CyberGear_drv.c</FilePath>
+            </File>
+            <File>
+              <FileName>DM8009_drv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Devices\DM_Motor\DM8009_drv.c</FilePath>
             </File>
           </Files>
         </Group>

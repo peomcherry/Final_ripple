@@ -211,7 +211,7 @@ void IMU_Data_Process(void)
         AHRS_update(INS_quat, 0.001f, bmi088_real_data.gyro, bmi088_real_data.accel, ist8310_real_data.mag);
         get_angle(INS_quat, INS_angle + INS_YAW_ADDRESS_OFFSET, INS_angle + INS_PITCH_ADDRESS_OFFSET, INS_angle + INS_ROLL_ADDRESS_OFFSET);
 				
-					printf("yaw = %.2f    %.2f    %.2f\r\n",INS_angle[0]*57.3f,INS_angle[1]*57.3f,INS_angle[2]*57.3f);
+//					printf("yaw = %.2f    %.2f    %.2f\r\n",INS_angle[0]*57.3f,INS_angle[1]*57.3f,INS_angle[2]*57.3f);
 }
 
 

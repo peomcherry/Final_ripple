@@ -52,4 +52,4 @@ future_offer\ist8310driver_middleware.o: ../Middlewares/Third_Party/FreeRTOS/Sou
 future_offer\ist8310driver_middleware.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 future_offer\ist8310driver_middleware.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 future_offer\ist8310driver_middleware.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
-future_offer\ist8310driver_middleware.o: ../User/BSP/BSP_DWT.h
+future_offer\ist8310driver_middleware.o: ../User/BSP/DWT/BSP_DWT.h

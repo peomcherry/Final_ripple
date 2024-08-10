@@ -54,4 +54,10 @@ future_offer\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/even
 future_offer\freertos.o: ../User/APP/INS_task.h
 future_offer\freertos.o: ../User/APP/chassisL_task.h
 future_offer\freertos.o: ../User/APP/chassisR_task.h
+future_offer\freertos.o: ../User/Devices/DM_Motor/DM8009_drv.h
+future_offer\freertos.o: ../Core/Inc/can.h
+future_offer\freertos.o: ../User/BSP/CAN/bsp_can.h
+future_offer\freertos.o: ../User/Devices/CyberGear_Motor/CyberGear_drv.h
+future_offer\freertos.o: ../User/Algorithm/VMC/VMC_calc.h
+future_offer\freertos.o: ../User/Algorithm/PID/pid.h
 future_offer\freertos.o: ../User/APP/DT7_task.h

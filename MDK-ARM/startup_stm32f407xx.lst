@@ -851,7 +851,7 @@ ARM Macro Assembler    Page 14
 
 m32f407xx.o -I../Core/Inc -I.\RTE\_Future_offer -IE:\ProgramFile\MDK\Packs\ARM\
 CMSIS-DSP\1.15.0\Include -IE:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.15.0\Privat
-eInclude -IE:\ProgramFile\MDK\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IE:\Pro
+eInclude -IE:\ProgramFile\MDK\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include -IE:\Pro
 gramFile\MDK\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\
 Include --predefine="__UVISION_VERSION SETA 538" --predefine="_RTE_ SETA 1" --p
 redefine="STM32F407xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f4

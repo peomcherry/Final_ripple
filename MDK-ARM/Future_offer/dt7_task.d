@@ -52,6 +52,7 @@ future_offer\dt7_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/time
 future_offer\dt7_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 future_offer\dt7_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 future_offer\dt7_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
-future_offer\dt7_task.o: ../User/BSP/BSP_DWT.h
+future_offer\dt7_task.o: ../User/BSP/DWT/BSP_DWT.h
 future_offer\dt7_task.o: ../User/Devices/BMI088/BMI088driver.h
 future_offer\dt7_task.o: ../User/Devices/ist8310/ist8310driver.h
+future_offer\dt7_task.o: ../User/BSP/SBUS/bsp_sbus.h

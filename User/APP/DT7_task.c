@@ -26,6 +26,7 @@
 #include "usart.h"
 #include "BMI088driver.h"
 #include "ist8310driver.h"
+#include "bsp_sbus.h"
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/
@@ -36,6 +37,8 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
+extern rc_info_t rc;
+
 /* USER CODE END PM */
 
 
@@ -56,13 +59,14 @@ void DT7_task(void)
 		
 	
   /* USER CODE END Init */
+		dbus_uart_init();
 
   /* USER CODE END INIT */
 	
-	//printf("DT7_task init_ok\r\n");
+	printf("DT7_task init_ok\r\n");
 	while(1)
 	{
-		
+		//printf("CH1=%d    CH2=%d    CH3=%d    CH4=%d\r\n",rc.ch1,rc.ch2,rc.ch3,rc.ch4);
 
 		
 		

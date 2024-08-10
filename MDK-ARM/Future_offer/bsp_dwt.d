@@ -1,5 +1,5 @@
-future_offer\bsp_dwt.o: ..\User\BSP\BSP_DWT.c
-future_offer\bsp_dwt.o: ..\User\BSP\BSP_DWT.h
+future_offer\bsp_dwt.o: ..\User\BSP\DWT\BSP_DWT.c
+future_offer\bsp_dwt.o: ..\User\BSP\DWT\BSP_DWT.h
 future_offer\bsp_dwt.o: ../Core/Inc/main.h
 future_offer\bsp_dwt.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 future_offer\bsp_dwt.o: ../Core/Inc/stm32f4xx_hal_conf.h
